@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6ee;
+}
+
+#main #nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main #nav #navbar {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main #nav #navbar h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#main #nav #navbar span {
+    font-weight: 500;
+}
+
+#main #nav #navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#main #nav #navbar .nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+#main .center {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .center h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#main .center p {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 40%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 20px;
+}
+
+#main img {
+    width: 100%;
+}
+
+#main .btn {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+    align-items: center;
+}
+#main .btn h2{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#main .bottom {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+    /* background-color: #000000; */
+}
+
+#main .bottom .bottom-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 35px;
+    text-align: right;
+    border-right: 2px solid black;
+    
+}
+
+#main .bottom .bottom-right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    margin-top: 15px;
+    
+}
+#main .bottom .bottom-right .top,
+#main .bottom .bottom-right .bot {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#main .bottom .bottom-right i{
+    font-size: 1.8rem;
+    margin-right: 10px;
+}
+
+#main .bottom-left h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
